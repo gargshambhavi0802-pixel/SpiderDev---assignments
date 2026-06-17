@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORDER</title>
+</head>
+
+<body>
+
+    <h1 style="font-size: 70px; text-align: center;">TIME TO ORDER!</h1>
+
+    <br><br>
+
+    <form action="">
+
+        <fieldset>
+            <legend><b>CUSTOMER DETAILS</b></legend>
+
+            <label for="name">NAME:</label>
+            <input type="text" placeholder="Enter your name" id="name">
+
+            <br><br>
+
+            <label for="number">PHONE NUMBER:</label>
+            <input type="number" placeholder="Enter your number" id="number">
+
+            <br><br>
+
+            <label for="address">ADDRESS:</label>
+            <input type="text" placeholder="Enter your address" id="address">
+
+        </fieldset>
+
+        <br><br>
+
+
+        <fieldset>
+            <legend><b>ORDER DETAILS</b></legend>
+
+            <label for="dish">SELECT DISH:</label>
+            <br><br>
+
+            <select id="dish" name="dish" multiple size="5">
+                <option>Binary Search Burger</option>
+                <option>BFS Blast Fries</option>
+                <option>Dynamic Programming Pizza</option>
+                <option>Backtracking Brownie</option>
+                <option>AVL Velvet Cake</option>
+                <option>Merge Sort Momos</option>
+                <option>Linked List Lasagna</option>
+                <option>Heap Burger</option>
+            </select>
+
+            <br><br>
+
+            <label for="quantity">QUANTITY:</label>
+            <input type="number" placeholder="Enter quantity" id="quantity">
+
+        </fieldset>
+
+        <br><br>
+
+
+        <fieldset>
+            <legend><b>PAYMENT DETAILS</b></legend>
+
+            <label>TYPE OF PAYMENT:</label>
+
+            <br><br>
+
+            <input type="radio" id="cod" name="payment" value="Cash on Delivery">
+            <label for="cod">Cash on Delivery</label>
+
+            <br>
+
+            <input type="radio" id="upi" name="payment" value="UPI">
+            <label for="upi">UPI</label>
+
+            <br>
+
+            <input type="radio" id="card" name="payment" value="Card">
+            <label for="card">Credit/Debit Card</label>
+
+            <br>
+
+            <input type="radio" id="netbanking" name="payment" value="Net Banking">
+            <label for="netbanking">Net Banking</label>
+
+        </fieldset>
+
+        <br><br>
+
+
+        <fieldset>
+            <legend><b>SPECIAL REQUESTS</b></legend>
+
+            <label for="instructions">SPECIAL INSTRUCTIONS:</label>
+
+            <br><br>
+
+            <textarea 
+                id="instructions" 
+                name="instructions" 
+                rows="5" 
+                cols="50" 
+                placeholder="Write your instructions here...">
+            </textarea>
+
+        </fieldset>
+
+        <br><br>
+
+        <input type="submit" value="PLACE ORDER">
+
+    </form>
+
+</body>
+</html>
