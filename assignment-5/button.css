@@ -1,0 +1,20 @@
+body{
+    align-items: center;
+}
+h1{
+    text-align: center;
+    margin: 50px auto;
+}
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 100px auto;
+    display: block;
+}
+button:hover{
+    background-color: darkred;
+    box-shadow: 0px 6px 10px gray;
+}
